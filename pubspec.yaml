@@ -1,0 +1,40 @@
+name: hostel_hub
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"  # Updated Dart SDK constraint
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Flutter built-in packages (no need to add these explicitly)
+  cupertino_icons: ^1.0.8
+
+  # Firebase Dependencies
+  firebase_core: ^2.24.0
+  firebase_auth: ^4.14.0
+  cloud_firestore: ^4.12.0
+  firebase_storage: ^11.5.0
+  image_picker: ^1.0.4
+
+  # Shared Preferences
+  shared_preferences: ^2.2.2  # Added shared_preferences package
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0  # For linting and code analysis
+  flutter_launcher_icons: ^0.13.1  # Add this package for app icons
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/jpj_logo.png  # Add your logo here
+
+flutter_icons:
+  android: true
+  image_path: "assets/jpj_logo.png"  # Path to your logo
